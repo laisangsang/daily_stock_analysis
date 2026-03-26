@@ -429,8 +429,8 @@ class Config:
     stock_list: List[str] = field(default_factory=list)
 
     # === 飞书云文档配置 ===
-    feishu_app_id: Optional[str] = None
-    feishu_app_secret: Optional[str] = None
+    feishu_app_id: Optional[str] = cli_a94f3fc300f8dbb3
+    feishu_app_secret: Optional[str] = bzA1mSf03euc8cnyxzYWrbGkqVtI2ckE
     feishu_folder_token: Optional[str] = None  # 目标文件夹 Token
 
     # === 数据源 API Token ===
